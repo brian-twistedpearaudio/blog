@@ -14,30 +14,17 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Twisted Pear Audio Blog
-#email: your-email@example.com
+email: feedback@twistedpearaudio.com
 description: >- # this means to ignore newlines until "baseurl:"
   A blog from the founders of Twisted Pear Audio. Here you will find
   posts related to DIY audio and Twisted Pear Audio modules as well
   as documentation for Twisted Pear Audio Modules.
 baseurl: "/blog" # the subpath of your site, e.g. /blog
-#url: "https://twistedpearaudio.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-#twitter_username: jekyllrb
 github_username:  twistedpearaudio
-#
-## Build settings
-## markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+collections:
+  docs_b3sepro:
+    output: true
+    permalink: /:collection/:name
