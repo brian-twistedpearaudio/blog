@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   A blog from the founders of Twisted Pear Audio. Here you will find
   posts related to DIY audio and Twisted Pear Audio modules as well
   as documentation for Twisted Pear Audio Modules.
-#baseurl: "/blog" # the subpath of your site, e.g. /blog
+baseurl: "/blog" # the subpath of your site, e.g. /blog
 #url: "https://twistedpearaudio.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  twistedpearaudio
